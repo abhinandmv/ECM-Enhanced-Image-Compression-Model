@@ -1,0 +1,30 @@
+# ============================================================
+# Enhanced Image Compression Model — Requirements
+# ============================================================
+
+# Deep Learning
+torch
+torchvision
+
+# Learned Image Compression
+compressai
+
+# Perceptual Metrics
+pytorch-msssim
+lpips
+
+# Image Processing
+Pillow
+scikit-image
+numpy
+
+# Diffusion Model (SD Agent)
+diffusers
+transformers
+accelerate
+
+# FID Evaluation
+torch-fidelity
+
+# Progress Bars
+tqdm
