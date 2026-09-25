@@ -5,12 +5,15 @@
 [![Python](https://img.shields.io/badge/python-3.8%2B-blue.svg)](https://www.python.org/)
 [![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?logo=PyTorch&logoColor=white)](https://pytorch.org/)
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](#license)
+[![Paper](https://img.shields.io/badge/IEEE-Paper-00629B.svg)](https://ieeexplore.ieee.org/document/11691942)
+
+📄 **Paper:** [IEEE Xplore — Enhanced Compression Model](https://ieeexplore.ieee.org/document/11691942)
 
 ECM is a learned image compression model built on the variational autoencoder + scale hyperprior paradigm. It extends the standard hyperprior backbone with **semantic gating**, **channel attention**, **autoregressive context modeling**, an **improved entropy parameter network**, and a dedicated **scale refinement** module — achieving a substantially better rate–distortion trade-off, particularly at low bitrates.
 
 On the **Kodak** benchmark, ECM achieves **30.882 dB PSNR** and **0.985 MS-SSIM** at only **0.176 BPP** — 5.5 dB higher PSNR than Scale Hyperprior (Q1) at a lower bitrate, and the highest MS-SSIM among all evaluated methods.
 
-> 📄 This repository accompanies the paper *"Enhanced Compression Model: A Hyperprior-Based Neural Image Compression Framework with Context Modeling, Entropy Parameter Network, Semantic Gating, and Scale Refinement."*
+> This repository accompanies the paper *"Enhanced Compression Model: A Hyperprior-Based Neural Image Compression Framework with Context Modeling, Entropy Parameter Network, Semantic Gating, and Scale Refinement,"* published on IEEE Xplore: https://ieeexplore.ieee.org/document/11691942
 
 ---
 
@@ -214,7 +217,8 @@ If you use this code or build on ECM, please cite the paper:
   title     = {Enhanced Compression Model: A Hyperprior-Based Neural Image Compression Framework with Context Modeling, Entropy Parameter Network, Semantic Gating, and Scale Refinement},
   author    = {Valappil, Abhinand Meethele and Singh, Sanidhya and Gupta, Rishabh and Randhar, Garv and Upadhayay, Bhawna},
   booktitle = {IEEE Conference Proceedings},
-  year      = {2026}
+  year      = {2026},
+  url       = {https://ieeexplore.ieee.org/document/11691942}
 }
 ```
 
